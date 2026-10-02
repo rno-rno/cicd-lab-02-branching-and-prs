@@ -40,7 +40,7 @@ your own fork, and open PRs inside it.**
    > container user are three different identities, so file ownership breaks in ways
    > `chown` cannot fix and you end up reaching for `sudo` (which makes it worse).
    > `scripts/setup.sh` refuses to run from there. See [`docs/wsl-setup.md`](./docs/wsl-setup.md).
-2. Branch and push to **your** fork (`git push -u origin <branch>`).
+2. Branch and push to **your** fork (`git push -u origin <branch>`).ok
 3. Open PRs **inside your fork**: base repo = your fork (the base *branch* varies
    per exercise step), compare = your branch. Watch out: GitHub's "Compare & pull
    request" banner defaults the base repo to the **upstream** course repo — switch
